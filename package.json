@@ -1,0 +1,23 @@
+{
+  "name": "appium_test_js_wd",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=6"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^6.0.0",
+    "wd": "^1.5.0"
+  }
+}
